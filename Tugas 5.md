@@ -38,10 +38,10 @@ dibagi untuk empat segmen dengan kebutuhan host sebagai berikut:
 
 ## Hasil Pembagian VLSM
 
-  ----------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------
   Kebutuhan   Network          Host Range         Prefiks     Broadcast        Host
                                                                                Terpakai
-  ----------- ---------------- ------------------ ----------- ---------------- -----------
+  ----------- ---------------- ------------------ ----------- ---------------- ----------- ---
   Lab A (90)  10.252.108.0     10.252.108.1 -     /25         10.252.108.127   1 - 90
                                10.252.108.126                                  
 
@@ -53,4 +53,8 @@ dibagi untuk empat segmen dengan kebutuhan host sebagai berikut:
 
   P2P (4)     10.252.108.208   10.252.108.209 -   /29         10.252.108.215   209 - 212
                                10.252.108.214                                  
-  ----------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------
+
+## Kesimpulan 
+
+VLSM (Variable Length Subnet Mask) merupakan teori yang digunakan untuk membagi network menjadi beberapa subnet sesuai dengan kebutuhan host-nya, berbeda dengan FLSM (Fixed Length Subnet Mask) yang hanya bisa membagi berdasarkan kebutuhan subnet, sehingga kurang fleksible untuk digunakan pada network yang membutuhkan host beragam.
